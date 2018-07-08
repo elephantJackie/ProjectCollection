@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+.container{
+    height: 100%;
+}
+.header{
+    width: 1000px;
+    height: 50%;
+    margin: 0 auto;
+    background-color: coral;
+    position: relative;
+    box-sizing: border-box;
+}
+.touxiang{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -85px 0 0  -50px;
+    box-shadow:0 0 4px #ccc;
+    overflow: hidden;
+}
+.touxiang img{
+    height:100%;
+    position: absolute;
+    left: -20%;
+}
+.box1{
+    width: 1000px;
+    height: 100px;
+    position: absolute;
+    top: 97%;
+    margin: -120px 0;
+}
+.name{
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+}
+.jianjie{
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+.contentDiv{
+    display:inline-block;
+    margin:5px auto;
+    width:100px;
+    height:100px;
+    border-radius:100px;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border:2px solid #fff;
+    box-shadow:0 0 4px #ccc;
+    overflow:hidden;
+} /*图片的样式*/
+.contentDiv img{
+    width:100%;
+    min-height:100%;
+}
+.nav{
+    width: 1000px;
+    height: 50%;
+    margin: 0 auto;
+    background-color: darkturquoise;
+    box-sizing: border-box;
+}
+.box2{
+    position: relative;
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+}
+.bus,.snake,.flappybird,.boom{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top:20%
+}
+.bus{
+    left: 20px;
+}
+.snake{
+    left: 260px;
+}
+.flappybird{
+    right: 270px;
+}
+.boom{
+    top: 20%;
+    right: 20px;
+}
+.bus>img{
+    height: 100px;
+}
+.snake>img{
+    height: 100px;
+}
+.flappybird>img{
+    height: 100px;
+}
+.boom>img{
+    height: 100px;
+}

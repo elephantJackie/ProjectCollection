@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>贪吃蛇</title>
+    <link rel="stylesheet" href="css/snake.css">
+</head>
+<body>
+
+<div class="wrap">
+    <h1>贪吃蛇游戏</h1>
+    <!-- 记录吃了多少个蛋 -->
+    <p style="font-size:20px;color:red">
+        score:<span id="score" style="color:black">0</span>
+    </p>
+    <!-- 暂停按钮 -->
+    <input id="Pause" type="button" name="name" value="暂停">
+    <!-- 开始按钮 -->
+    <input id="Start" type="button" name="name" value="继续">
+    <!-- 刷新(重新开始游戏) -->
+    <input id="Refresh" type="button" name="name" value="重新开始">
+    <!-- 加速按钮 -->
+    <input id="Speed" type="button" name="name" value="加快">
+    <!-- 贪吃蛇的行走路径地图 -->
+    <div id="snake_map"></div>
+</div>
+
+<script src="js/snake.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+$(".snake").click(function(){
+    window.location.href='snake.html';
+});
+$(".flappybird").click(function(){
+    window.location.href='flappybird.html';
+});
+$(".boom").click(function(){
+    window.location.href='boom.html';
+});
